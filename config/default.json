@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb+srv://Jerom:134048@vidly.vnkxq.mongodb.net/myApp?retryWrites=true&w=majority",
+  "port": "3900",
+  "requiresAuth": true
+}
