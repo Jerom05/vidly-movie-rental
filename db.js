@@ -2,12 +2,12 @@ const mongoose = require('mongoose')
 const winston = require('winston')
 const config = require('config')
 
-// const logger = winston.createLogger({
-//     level: 'info',
-//     format: winston.format.json(),
-//     defaultMeta: { service: 'user-service' },
-//     transports: [],
-// });
+const logger = winston.createLogger({
+    level: 'info',
+    format: winston.format.json(),
+    defaultMeta: { service: 'user-service' },
+    transports: [],
+});
 
 //for testing db
 async function Connect(params) {
